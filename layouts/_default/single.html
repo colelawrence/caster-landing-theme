@@ -7,6 +7,7 @@
   </head>
   <body>
     <!-- Preloader -->
+    <noscript><style> #preloader { display: none } </style></noscript>
     <div id="preloader">
       <div id="status"></div>
     </div>
@@ -22,9 +23,11 @@
     <!-- Back To Top Button -->
     <div id="backtotop"><a href="#"></a></div>
 
-    {{ if .Params.sidebar }}
-    {{ partial "single/sidebar.html" . }}
-    {{ end }}
+    {{/*
+      {{ if .Params.sidebar }}
+      {{ partial "single/sidebar.html" . }}
+      {{ end }}
+    */}}
 
     {{ end }}
 

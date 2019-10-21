@@ -55,7 +55,7 @@ Set the font of the site.
 
 ```
 font:
-  name: "Open Sans"
+  name: "Forecaster Work Sans"
   sizes: [400,600]
 ```
 

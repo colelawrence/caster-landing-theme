@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Forecaster Work Sans";
+    src: url(ForecasterWorkSans-VF.ttf);
+    font-feature-settings: "liga" 1, "kern" 1;
+    /* font-variation-settings: "wght" 900; */
+    font-weight: 100 900;
+}
+
+body {
+    font-family: "Forecaster Work Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+.is-1, .is-2, .is-3,
+h1, h2, h3 {
+    font-family: "Forecaster Work Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.is-4, .is-5, .is-6,
+h4, h5, h6 {
+    font-family: "Forecaster Work Sans", sans-serif;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+b, strong {
+    font-family: "Forecaster Work Sans", sans-serif;
+    font-weight: 600;
+}

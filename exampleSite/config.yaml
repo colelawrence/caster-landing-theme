@@ -19,7 +19,7 @@ params:
    image: logos/fresh.svg
    link: /
   font:
-    name: "Open Sans"
+    name: "Forecaster Work Sans"
     sizes: [400,600]
   hero:
     # Main hero title
